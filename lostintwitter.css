@@ -1,0 +1,92 @@
+body {
+  background-color: #000;
+  font: 16px Helvetica, Arial;
+  color: #fff;
+}
+
+div#content {
+  margin: auto;
+  width: 600px;
+  text-align: center;
+}
+
+header {
+  margin: 10px;
+
+}
+
+header h1 a:link, header h1 a:visited, header h1 a:active, header h1 a:hover {
+  color: #ff8;
+  font-size: 2em;
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+
+header p {
+  margin:0;
+  padding:0;
+  color: #DDD;
+  font-weight: bold;
+}
+
+dl {
+  border: 2px solid #888;
+  -moz-border-radius: 10px; 
+  -webkit-border-radius: 10px;
+  background-color: #333;
+  margin: 10px;
+  padding: 15px;
+  text-align: left;
+}
+
+dt img {
+  border: none;
+  float:left;
+  margin: 5px;
+  width: 48px;
+  height: 48px;
+}
+
+dt {
+  clear: both;
+}
+
+dd {
+  margin: 0 0 10px 67px
+}
+
+dt a {
+  font-weight: bold;  
+  margin-left: 5px;
+}
+dl a {
+  text-decoration: none;
+}
+dl a:link, dt a:visited  {
+  color: #ff7;
+}
+
+dl a:active {
+  color: #A00;
+}
+
+dl a:hover {
+  color: #F55;
+}
+
+dd em {
+  font-size: 0.75em;
+  color: #777;
+}
+
+dd time {
+  color: #77F;
+  font-size: 0.75em;
+  margin-left: 10px;
+}
+
+.loading {
+  background: white url('/loading.gif') no-repeat right center ;
+}
+
